@@ -11153,7 +11153,7 @@ input[type="radio"]:checked + .input-radio__label .input-radio__mark:after {
   }
   .feedback__form {
     grid-template-columns: 7fr 5fr;
-    max-width: 715px;
+    max-width: 100%;
   }
   .feedback__form-content {
     padding: 40px 0 40px 40px;
