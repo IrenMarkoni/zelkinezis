@@ -16,10 +16,11 @@ textarea {
   display: grid;
   grid-template-columns: 100%;
   gap: 20px;
+  max-width: 715px;
 }
 .feedback__form-content {
   padding: 40px;
-  max-width: 715px;
+  /* max-width: 715px; */
 }
 .feedback__img {
   padding: 0;
@@ -99,6 +100,7 @@ textarea {
   padding: 16px 24px;
   border: none;
   border-radius: 4px;
+  width: 100%;
 }
 .custom-input::placeholder {
   color: #acacac;
@@ -11151,6 +11153,7 @@ input[type="radio"]:checked + .input-radio__label .input-radio__mark:after {
   }
   .feedback__form {
     grid-template-columns: 7fr 5fr;
+    max-width: 715px;
   }
   .feedback__form-content {
     padding: 40px 0 40px 40px;
